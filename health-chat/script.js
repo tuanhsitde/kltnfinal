@@ -45,8 +45,8 @@ const defaultWelcomeHtml = `
             <div class="suggestions-container" style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px;">
                 <button class="suggestion-chip" onclick="useSuggestion('Giờ khám bệnh của Bệnh viện Bạch Mai')"> Giờ khám bệnh Bạch Mai</button>
                 <button class="suggestion-chip" onclick="useSuggestion('Cách sử dụng BHYT')">🤕 Cách sử dụng BHYT</button>
-                <button class="suggestion-chip" onclick="useSuggestion('Chi phí tiêm vacxin tại Bệnh Viên Bạch Mai')"> Chi phí tiêm vacxin tại Bệnh Viên Bạch Mai</button>
-                <button class="suggestion-chip" onclick="useSuggestion('Cách chuyển tuyến Bệnh viện')"> Cách chuyển tuyến Bệnh viện</button>
+                <button class="suggestion-chip" onclick="useSuggestion('Tôi muốn khám xương khớp, tôi cần đến phòng ban nào')"> Tôi muốn khám xương khớp, tôi cần đến phòng ban nào</button>
+                <button class="suggestion-chip" onclick="useSuggestion('Thủ tục mua thuốc sau khi khám bệnh')"> Thủ tục mua thuốc sau khi khám bệnh</button>
             </div>
         </div>
     </div>
