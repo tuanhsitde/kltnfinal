@@ -265,18 +265,7 @@ async function handleSend() {
                 finalHtml += `<p>${data.response || data.answer || "Không có nội dung"}</p>`;
             }
 
-            if (data.attachments && data.attachments.length > 0) {
-                finalHtml += `<div class="attachments-section" style="margin-top: 12px; padding-top: 12px; border-top: 1px solid rgba(0,0,0,0.1);">
-                                <p style="font-size: 0.85rem; color: #666; margin-bottom: 8px;"><strong>Tài liệu tham khảo:</strong></p>
-                                <div style="display: flex; gap: 8px; flex-wrap: wrap;">`;
-                data.attachments.forEach(att => {
-                    const icon = att.type === 'pdf' ? 'fa-file-pdf' : 'fa-file';
-                    finalHtml += `<a href="${att.url}" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; background: rgba(79, 195, 247, 0.1); color: #0288d1; border-radius: 16px; text-decoration: none; font-size: 0.85rem;">
-                                    <i class="fa-solid ${icon}"></i> File đính kèm (${att.type})
-                                  </a>`;
-                });
-                finalHtml += `</div></div>`;
-            }
+            
             
             addMessage(finalHtml, false, true, rawTextToSpeak);
         } else {
