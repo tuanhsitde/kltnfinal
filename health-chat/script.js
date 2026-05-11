@@ -43,10 +43,10 @@ const defaultWelcomeHtml = `
         <div class="message-content">
             <p>Xin chào! Tôi là trợ lý sức khoẻ AskHealth. Bạn đang cảm thấy thế nào hôm nay? Tôi có thể giúp gì cho bạn?</p>
             <div class="suggestions-container" style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px;">
-                <button class="suggestion-chip" onclick="useSuggestion('Giờ khám bệnh của Bệnh viện Bạch Mai')">🏥 Giờ khám bệnh Bạch Mai</button>
-                <button class="suggestion-chip" onclick="useSuggestion('Làm thế nào để giảm đau đầu nhanh chóng do căng thẳng?')">🤕 Cách giảm đau đầu</button>
-                <button class="suggestion-chip" onclick="useSuggestion('Gợi ý thực đơn ăn uống cho người bị tiểu đường')">🥗 Thực đơn tiểu đường</button>
-                <button class="suggestion-chip" onclick="useSuggestion('Các triệu chứng sớm của bệnh sốt xuất huyết là gì?')">🦟 Triệu chứng sốt xuất huyết</button>
+                <button class="suggestion-chip" onclick="useSuggestion('Giờ khám bệnh của Bệnh viện Bạch Mai')"> Giờ khám bệnh Bạch Mai</button>
+                <button class="suggestion-chip" onclick="useSuggestion('Cách sử dụng BHYT')">🤕 Cách sử dụng BHYT</button>
+                <button class="suggestion-chip" onclick="useSuggestion('Chi phí tiêm vacxin tại Bệnh Viên Bạch Mai')"> Chi phí tiêm vacxin tại Bệnh Viên Bạch Mai</button>
+                <button class="suggestion-chip" onclick="useSuggestion('Cách chuyển tuyến Bệnh viện')"> Cách chuyển tuyến Bệnh viện</button>
             </div>
         </div>
     </div>
