@@ -522,6 +522,34 @@ textarea {
    RESPONSIVE — TABLET (max-width: 768px)
    ============================================ */
 @media (max-width: 768px) {
+    .back-home-btn {
+        white-space: nowrap;
+        font-size: 0.8rem;
+        padding: 6px 8px;
+        flex-shrink: 0;
+    }
+
+    /* Fix: sidebar gọn hơn */
+    .sidebar {
+        padding: 0.4rem 0.75rem;
+        gap: 0.5rem;
+    }
+
+    /* Fix: new chat button gọn hơn */
+    .new-chat-btn {
+        padding: 6px 10px;
+        font-size: 0.8rem;
+    }
+
+    /* Fix: ẩn text "Tài khoản", chỉ giữ avatar */
+    .user-profile span {
+        display: none;
+    }
+
+    /* Fix: ẩn history items trên mobile nếu quá chật */
+    .history-list {
+        display: none;
+    }
 
     /* --- Home: Container --- */
     .home-container {
