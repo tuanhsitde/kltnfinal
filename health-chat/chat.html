@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AskHealth - Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body class="chat-body">
+    <div class="app-container">
+        <aside class="sidebar">
+            <a href="index.html" class="back-home-btn">
+                <i class="fa-solid fa-arrow-left"></i> Về trang chủ
+            </a>
+            <button class="new-chat-btn" style="margin-top: 1rem;">
+                <i class="fa-solid fa-plus"></i> Cuộc trò chuyện mới
+            </button>
+            <div class="history-list">
+                <div class="history-item active">
+                    <i class="fa-regular fa-message"></i> Tư vấn dinh dưỡng
+                </div>
+                <div class="history-item">
+                    <i class="fa-regular fa-message"></i> Lịch tập luyện
+                </div>
+            </div>
+            <div class="user-profile">
+                <img src="https://ui-avatars.com/api/?name=User&background=ffb6c1&color=fff" alt="User" class="avatar">
+                <span>Tài khoản của tôi</span>
+            </div>
+        </aside>
+
+        <main class="chat-area">
+            <header class="chat-header">
+                <h2>AskHealth <span>Hỗ trợ y tế & Sức khoẻ</span></h2>
+            </header>
+
+            <div class="messages-container" id="messages-container">
+                <div class="message bot-message">
+                    <div class="message-icon">
+                        <i class="fa-solid fa-user-doctor"></i>
+                    </div>
+                    <div class="message-content">
+                        <p>Xin chào! Tôi là trợ lý sức khoẻ AI của bạn. Bạn đang cảm thấy thế nào hôm nay? Tôi có thể giúp gì cho bạn?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-area">
+                <div class="input-wrapper">
+                    <textarea id="chat-input" placeholder="Nhập câu hỏi về sức khoẻ của bạn..." rows="1"></textarea>
+                    <button id="mic-btn" title="Nhập bằng giọng nói"><i class="fa-solid fa-microphone"></i></button>
+                    <button id="send-btn" title="Gửi"><i class="fa-solid fa-paper-plane"></i></button>
+                </div>
+                <div class="disclaimer">
+                    AskHealth chỉ cung cấp thông tin tham khảo, không thay thế lời khuyên y tế chuyên nghiệp.
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

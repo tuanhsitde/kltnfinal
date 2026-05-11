@@ -1,0 +1,17 @@
+{
+  "name": "kltnfe",
+  "version": "1.0.0",
+  "description": "AskHealth Web Interface",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite health-chat --port 3000",
+    "build": "vite build health-chat",
+    "preview": "vite preview health-chat",
+    "debug": "vite health-chat --debug --force",
+    "test": "echo \"No test suite specified yet\" && exit 0"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  },
+  "private": true
+}
