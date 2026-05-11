@@ -2,9 +2,7 @@
   "buildCommand": "vite build health-chat",
   "outputDirectory": "health-chat/dist",
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
+    { "source": "/api/:path*", "destination": "http://101.96.66.222:8012/:path*" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

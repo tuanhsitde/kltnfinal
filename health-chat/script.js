@@ -245,7 +245,7 @@ async function handleSend() {
     showTypingIndicator();
 
     try {
-        const response = await fetch("http://101.96.66.222:8012/ask", {
+        const response = await fetch("/api/ask", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
