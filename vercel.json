@@ -1,8 +1,10 @@
 {
+  "buildCommand": "vite build health-chat",
+  "outputDirectory": "health-chat/dist",
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/"
+      "destination": "/index.html"
     }
   ]
 }
